@@ -1,0 +1,21 @@
+body{
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(123,149,148,1) 36%, rgba(2,0,36,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.tablestyle{
+    border-style: double;
+    border-color: black;
+    text-align: center;
+}
+
+th{
+    background-color: aliceblue;
+
+}
+

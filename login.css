@@ -1,0 +1,72 @@
+body {
+    background: rgb(170,180,45);
+    background: linear-gradient(90deg, rgba(170,180,45,1) 0%, rgba(55,149,61,0.8519782913165266) 48%, rgba(218,227,10,0.8519782913165266) 97%);
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+input[type="text"]{
+    background:transparent ;
+    border-bottom: 1px solid #000  ;
+    border-radius: 0px;
+    color: antiquewhite;
+}
+
+input{
+    border-radius: 10px;
+    border: 0px;
+    outline: none;
+}
+input[placeholder="submit"]{
+    background:#fff;
+    width: 100px;
+    color: #000;
+}
+
+input::placeholder{
+    color: bisque;
+}
+.login img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.login input[type="text"], 
+.login input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login button {
+    background: rgb(180,45,45);
+    background: linear-gradient(90deg, rgba(180,45,45,1) 0%, rgba(55,149,61,0.8519782913165266) 48%, rgba(10,29,227,0.8519782913165266) 97%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login button:hover {
+    background-color: #45a049;
+}
+
+.login .checkbox {
+    margin: 15px 0;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login .checkbox input {
+    margin-right: 8px;
+}
